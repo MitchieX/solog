@@ -1,0 +1,97 @@
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 320px) {
+  iframe{width: 190px;}
+  #painel-animado{height: 60%;}
+  h1{font-size: 30px;  padding-top: 50%;}
+  #quemsomos{margin-top: 30%;}
+  iframe{width: 290px;}
+}
+
+@media screen and (min-width: 360px) {
+  #painel-animado{height: 60%;}
+  h1{font-size: 40px; padding-top: 50%;}
+  #quemsomos{margin-top: 50%;}
+  iframe{width: 340px;}
+}
+
+@media screen and (min-width: 410px) {
+  iframe{width: 386px; height: 300px;}
+  #quemsomos{margin-top: 30%;}
+  h1{font-size: 30px; padding-top: 50%;}
+  #painel-animado{height: 60%; width: 100%;}
+}
+
+@media screen and (min-width: 568px) {
+  iframe{width: 540px; height: 300px;}
+  #quemsomos{margin-top: 10%;}
+  h1{font-size: 30px; padding-top: 30%;}
+  #painel-animado{height: 100%; width: 100%;}
+}
+
+@media screen and (min-width: 640px) {
+  iframe{width: 500px; height: 300px;}
+  #quemsomos{margin-top: 30%;}
+  h1{font-size: 30px; padding-top: 30%;}
+  #painel-animado{height: 100%; width: 100%;}
+}
+
+@media screen and (min-width: 736px) {
+  #quemsomos{margin-top: 10%;}
+  h1{font-size: 50px;}
+}
+
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px) {
+  #quemsomos{margin-top: 30%;}
+  #painel-animado{height: 60%; width: 100%;}
+  iframe{width: 200px;}
+}
+
+@media screen and (min-width: 812px) {
+  iframe{width: 230px; height: 300px;}
+  #quemsomos{margin-top: 10%;}
+  h1{font-size: 40px; padding-top: 25%;}
+  #painel-animado{height: 100%; width: 100%;}
+}
+
+@media screen and (min-width: 823px) {
+  iframe{width: 230px; height: 300px;}
+  #quemsomos{margin-top: 10%;}
+  h1{font-size: 40px; padding-top: 25%;}
+  #painel-animado{height: 100%; width: 100%;}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+  #quemsomos{margin-top: 30%;}
+  #painel-animado{height: 100%; width: 100%;}
+  iframe{width: 260px;}
+}
+
+@media screen and (min-width: 1024px) {
+  #quemsomos{margin-top: 20%;}
+  h1{font-size: 150px; padding-top: 30%;}
+  #painel-animado{height: 100%; width: 100%;}
+  iframe{width: 260px;}
+}
+
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+  h1{font-size: 130px; padding-top: 20%;}
+  #quemsomos{margin-top: 15%;}
+  #painel-animado{height: 100%; width: 100%;}
+  iframe{width: 400px;}
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+    #painel-animado{height: 50%; width: 100%;}
+    #quemsomos{margin-top: 20%;}
+    h1{font-size: 130px; padding-top: 25%;}
+}
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+    #painel-animado{height: 100%; width: 100%;}
+    #quemsomos{margin-top: 30%;}
+    h1{font-size: 180px; padding-top: 25%;}
+}
+

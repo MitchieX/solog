@@ -1,0 +1,90 @@
+/* GUIA DE CSS 
+
+1 - Padrões
+2 - Home
+3 - Quem somos
+4 - Serviços
+5 - Orçamento
+6 - Contatos
+
+*/
+
+/* 1 - Padrões */
+body{overflow-x: hidden; margin: 0; padding: 0; background: radial-gradient(#D4D6D6, #C5C7C7, #A7A8A8); }
+
+.hvr-underline-from-center:before{background: #fff;}
+
+.hvr-radial-out:before{background: rgba(129,0,0,.8);}
+
+.hvr-shutter-in-vertical{background: rgba(129,0,0,.8); border-radius: 3px;}
+
+/* 2 - Home */
+
+.button-colapse-menu{background-color: #B9342D;}
+
+#header a{color: rgba(0,0,0,.5); font-family: lato; font-size: 23px;}
+
+#header a:hover{color: rgb(0,0,0); text-decoration: none; transition: .1s; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(0.1); border-bottom: solid 3px #B9342D;}
+
+#painel-animado{width: 100%; height: 100%; filter: brightness(70%) blur(5px); background-position: center top; z-index: -1; position: relative;}
+
+h1{font-size: 130px; padding-top: 20%;}
+
+.bw{color: #fff; font-family: Poppins;}
+
+/* 3 - Quem somos */
+
+.grade{border: 3px solid black; padding: 4%; border-radius: 4px;}
+
+.grade:hover{color: #fff; text-decoration: none; transition: .5s; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1);}
+
+.grade p{font-family: Poppins;}
+
+/* 4 - Serviços */
+
+#servicos{background-image: url(../img/Background.jpg); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+
+#cartao3d_im {position: relative; width: 290px; height: 320px; margin: 10px auto; -webkit-perspective: 1000px; -moz-perspective: 1000px; -o-perspective: 1000px; perspective: 1000px; }
+
+.cartao3d {position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; background-color: #282828;}
+
+.cartao3d.back {display: block; -webkit-transform: rotateY(180deg); -webkit-box-sizing: border-box; -moz-transform: rotateY(180deg); -moz-box-sizing: border-box; -o-transform: rotateY(180deg); -o-box-sizing: border-box; transform: rotateY(180deg); -ms-transform:rotateY(180deg); box-sizing: border-box; padding: 10px; text-align: center; color: white; background-color: #aaa; }
+
+#cartao3d_tx {width: 100%; height: 100%; -webkit-transform-style: preserve-3d; -webkit-transition: all 1.0s linear; -moz-transform-style: preserve-3d; -moz-transition: all 1.0s linear; -o-transform-style: preserve-3d; -o-transition: all 1.0s linear; transform-style: preserve-3d; transition: all 1.0s linear; }
+
+#cartao3d_im:hover #cartao3d_tx, #cartao3d_im.hover_effect #cartao3d_tx {-webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg); -ms-transform:rotateY(180deg); -webkit-box-shadow: -5px 5px 5px #aaa; -moz-box-shadow: -5px 5px 5px #aaa; box-shadow: -5px 5px 5px #aaa; }
+
+.nomes-card{color: #fff;}
+
+.img-card {border-radius: 50%; overflow: hidden; width: 120px; height: 120px; border: solid white 4px; padding: 1%;}
+
+.but-orc{color: black; border-radius: 10%; border: black;}
+
+/* 5 - Orçamentos */
+
+#enviar-orc{background-color:#6D0000; color: #fff;}
+
+#orcamento{background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+
+.aumenta-text:hover{text-decoration: none; transition: .1s; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(0.1);}
+
+/* 6 - Contatos */
+
+iframe{border-radius: 3px;}
+
+#contato{background-color:#6D0000;}
+
+#praxis{background-color: #810000; padding: 10px; color: white; margin: 0px; border-top: 1px solid white;}
+
+#praxis a{color: white;}
+
+.icon{font-size: 50px;}
+
+input{border: 1px #282828 solid;}
+
+.enviar-b{font-family: roboto; background-color: #fff; color: #282828;}
+
+.hvr-rectangle-in{background: #000;}
+
+
+
